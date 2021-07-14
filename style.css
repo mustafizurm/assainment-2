@@ -53,8 +53,11 @@
 
 /* HOVER EFFECT FOR HEADING */
 
+.photo img:hover{
 
-
+    transform: rotate(4deg);
+    transition: transform 0.5s ease-in-out;
+}
 
 
 
@@ -127,15 +130,74 @@ row-gap:17px;
    padding:7px 22px;
    text-decoration: none;
    background-image: linear-gradient(red,orange);
+   border-radius:8px;
     
 }
 
+.link a:hover{
+    color: aquamarine
+    background-color: ;background-image:linear-gradient(blue,skyblue);
 
+}
 
 .last-pic-detail h1{
     font-size: 35px;
 }
 
+
+/*------------------EXTRA CONTAIN----------------------*/
+
+.extra-contain{
+    margin-top:100px;
+}
+
+.extra-contain h1,h4{
+text-align: center;
+}
+
+.extra-contain h4{
+    margin-top: 15px;
+}
+
+.overflow{
+    display: flex;
+    justify-content: center;
+}
+.overflow .item-1{
+    
+    padding-right:12px;
+    width:450px;
+    height: 500px;
+    margin-right: 130px;
+    overflow: auto;
+    box-shadow:0px 0px 14px lightgray;
+}
+
+.overflow .item-1 p{
+    padding:24px;
+    
+}
+
+.overflow .item-2 p{
+    padding:24px;
+}
+
+h3{
+    text-align: center;
+    padding-top: 15px;
+    color: lightskyblue;
+    font-size: 30px;
+}
+
+.overflow .item-2{
+    box-shadow:0px 0px 14px lightgray;
+    width: 450px;
+    height: 500px;
+    overflow: auto;
+}
+
+
+/*------EXTRA CONTAIN END---------------*/
 footer{
     margin-top: 160px;
     border-bottom: 3px solid black;
@@ -224,6 +286,30 @@ padding-bottom: 150px;
 
 }
 
+
+
+
+/*--EXTRA MEDIA QUERY---*/
+
+@media screen and (max-width:688px) {
+    
+.overflow{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.overflow .query-4  {
+
+    width: 100%;
+}
+
+    
+}
+.overflow .item-1{
+    margin-right:0px;
+}
+
+}
 
 
 
