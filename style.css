@@ -184,7 +184,7 @@ footer div h1{
 /*-----------------------*Media query*------------------------*/
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:688px) {
 
    .heading{
        display: flex;
