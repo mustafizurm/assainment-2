@@ -189,6 +189,8 @@ footer div h1{
    .heading{
        display: flex;
        flex-wrap: wrap;
+       position:relative;
+       left: 36px;
    }
     
    .media{
