@@ -1,0 +1,229 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* HEADING TOPPIC START*/
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+   
+   
+   
+}
+
+.head-section{
+    width: 100%;
+    background-color: blueviolet;
+    
+}
+
+
+.heading{
+    display: flex;
+    justify-content: space-around;
+    padding-top:70px;
+    padding-bottom: 90px;
+}
+
+.head-topic{
+    position:relative;
+    top: 40px;
+    right:0px;
+   
+}
+
+.head-topic h1{
+    font-size:60px;
+    color: white;
+    padding:10px;
+}
+
+.head-topic a{
+    color: white;
+}
+
+/* HEADING TOPPIC END*/
+/*-------------------*/
+
+/* HOVER EFFECT FOR HEADING */
+
+
+
+
+
+
+/*ALL PLAYER PICTER AND DETAILS START*/
+
+.main-section{
+ display:flex;
+ justify-content: center;
+ 
+}
+
+.container-2{
+    width: 75%; 
+    
+      
+}
+
+
+.all-player-pic {
+display: grid;
+grid-template-columns:1fr 1fr 1fr;
+column-gap: 25px;
+row-gap:17px;
+
+
+
+}
+
+
+.photo img{
+    width: 370px;
+    height: 370px;
+    
+    
+}
+
+.photo{
+    
+    box-shadow:0px 0px 15px lightgray ;
+    padding:15px;
+}
+
+/*LAST SECTION IN THIS WRBSITE*/
+
+.last-section{
+    margin-top: 100px;
+}
+
+.last-demo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-pic img{
+    width: 600px;
+    height:400px;
+}
+
+.last-section .last-demo .last-pic-detail{
+    position:relative;
+    top: 60px;
+}
+
+
+ .link a{
+    font-size: 20px;
+    background-color: red;
+   position: relative;
+   top:25px;
+   padding:7px 22px;
+   text-decoration: none;
+   background-image: linear-gradient(red,orange);
+    
+}
+
+
+
+.last-pic-detail h1{
+    font-size: 35px;
+}
+
+footer{
+    margin-top: 160px;
+    border-bottom: 3px solid black;
+    
+}
+
+
+.footer-heading{
+   display: flex;
+   justify-content: center;
+}
+
+footer div h1{
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.figma{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.figma span{
+  margin: 10px;
+  border-radius: 50%;
+  background-color: lightgray;
+}
+
+.copyright p{
+    margin-top: 15px;
+    margin-bottom:90px;
+    text-align: center;
+    color: blue;
+}
+
+
+
+/*-------------------------------------------------------------------------------------
+--------------------------------------------------------------------
+--------------------------------------------------
+------------------------------------
+---------------------
+-------------*/
+
+/*-----------------------*Media query*------------------------*/
+
+
+@media screen and (max-width:600px) {
+
+   .heading{
+       display: flex;
+       flex-wrap: wrap;
+   }
+    
+   .media{
+       flex:100%;
+   }
+
+   .all-player-pic {
+       display: flex;
+       flex-wrap: wrap;
+   }
+
+   .photo{
+       flex: 100%;
+   }
+
+.last-demo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.query{
+    width: 100%;
+}
+.last-demo .first{
+padding-bottom: 150px;
+}
+
+.last-demo .second img{
+    width: 100%;
+}
+
+}
+
+
+
+
+
+
